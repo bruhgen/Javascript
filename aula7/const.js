@@ -3,4 +3,4 @@ const segundoNumero = 10;
 const resultado = primeiroNumero * segundoNumero;
 const resultadoDuplicado = resultado * 12;
 
-console.log(resultadoDuplicado)
+console.log(resultadoDuplicado);
