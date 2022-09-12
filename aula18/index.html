@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercício com Funções - Arrays e Objetos</title>
+
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1, h4, p {
+      text-align: center;
+    }
+    .p {
+      max-width: 100%;
+      font-size: 20px;
+      color: tomato;
+      font-weight: bold;
+      background-color: #f5f3f4;
+      padding: .5rem;
+      border-radius: .5rem 0;
+    }
+
+    form {
+      margin-top: 2rem;
+    }
+    fieldset {
+      display: flex;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Exercício resolvido</h1>
+    <h4>Funções, Arrays e Objetos</h4>
+    <p>Coleta os dados do input e exibe abaixo do fromulário</p>
+
+    <form class="form" action="" method="GET">
+      <fieldset>
+        <legend>Dados</legend>
+        Nome: <input id="nome" type="text">
+        Sobrenome: <input id="sobrenome" type="text">
+        Peso: <input type="text" id="peso">
+        Altura: <input type="text" id="altura" >
+        <button class="btn">Enviar</button>
+      </fieldset>
+    </form>
+
+    <div class="exibe"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
